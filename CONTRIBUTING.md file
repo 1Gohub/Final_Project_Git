@@ -1,0 +1,4 @@
+user asking about Git commands to add a "CONTRIBUTING.md" file,
+ * git add CONTRIBUTING.md: This command stages the "CONTRIBUTING.md" file, indicating that Git should include it in the next commit.
+ * git commit -m "Add contribution guidelines": This command creates a new commit with the staged changes. The "-m" flag allows you to include a commit message directly in the command, which in this case is "Add contribution guidelines".
+ * git push origin main: This command pushes the local commit to the remote repository. "origin" is the default name for the remote repository you cloned from, and "main" is the name of the branch you're pushing to.
